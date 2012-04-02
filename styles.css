@@ -1,0 +1,161 @@
+/**** Stylesheet for Loggerhead By Jeremy Kao ****/
+
+
+html, body, h1, h2, h3, p, table, tr, td, form {
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+td input{
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin: 0 auto 0 auto;
+	
+}
+/******************** Header ******************************/
+h1{
+	font-size: 45px;
+	margin-top: 8px;
+}
+/******************** Score Board **************************/
+#scoreboard_wrapper{
+	position: absolute;
+	top:200px;
+	left: 240px;
+	width: 700px;
+}
+#scoreboard_wrapper table{
+	margin-left: auto;
+	margin-right: auto;
+}
+.Pscore{
+	text-align: left;
+}
+.score{
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+#scoreboard th{
+	font-size: 16px;
+}
+#scoreboard td{
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
+/********************* Add or Delete Player Bar ***************/
+#addDeleteClick{
+	position: absolute;
+	bottom: 30px;
+	right: 10px;
+}
+#addDeleteClick p{
+	padding: 5px;
+	margin: 0;
+	font-size: 10px;
+	background-color: red;
+}
+#addPlayerBar{
+	position: absolute;
+	visibility: hidden;
+	bottom: -25px;
+	right: 5px;
+	width: 650px;
+	font-size: 12px;
+}
+#addDeleteClick:hover #addPlayerBar{
+	visibility: visible;
+}
+.positive{
+	color: #000000;
+}
+.negative{
+	color: #FF0000;
+}
+
+/************* Hide These ***************/
+#hideThese{
+	position: absolute;
+	width: 675px;
+	top: 80px;
+	left: 270px;
+}
+/********Side Bar *************/
+#sidebar{
+	position: fixed;
+	left: 0;
+	top: 80px;
+	width: 250px;
+	background-color: #CCCCFF;
+	min-height: 500px;
+}
+#sidebar_table, #sidebar_drop {
+	position: relative;
+	top: 15px;
+	left: 10px;
+}
+#sidebar_table td{
+	padding-top: 10px;
+}
+.sidebar_name a{
+	text-decoration: none;
+	color: black;
+}
+.sidebar_name a:hover{
+	color: red;
+}
+
+.sidebar_buttons{
+	margin-left: 5px;
+}
+/****************** Delete Players Div ********************/
+#delete_players{
+	position: absolute;
+	top: 400px;
+	right: 25px;
+}
+/***************** Clear Board Button ********************/
+#clearBoard{
+	position: absolute;
+	bottom: 60px;
+	right: 5px;
+}
+/***************** Create Teams *********************/
+#createTeams{
+	position: absolute;
+	right: 5px;
+	top: 360px;
+}
+/**************** Team ScoreBoard *******************/
+#teamScores{
+	position: absolute;
+	right: 10px;
+	top: 120px;
+}
+#teamScores_table th{
+	font-size: 30px;
+}
+#teamScores_table td{
+	border: 2px solid black;
+	text-align: center;
+	font-size: 28px;
+}
+/**************** Footer *************************/
+#footer{
+	position: absolute;
+	bottom: 10px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#footer_text{
+	font-size: 10px;
+	text-align: center;
+}
