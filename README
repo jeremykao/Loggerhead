@@ -1,0 +1,6 @@
+Loggerhead README
+Author: Jeremy Kao
+Contact: j7kao@ucsd.edu
+Overview: A PHP and MySQL based web application for keep track of scores of
+		  Ocean Sciences Bowl practices or games.
+Requirements: Web Server with PHP and MySQL installed
